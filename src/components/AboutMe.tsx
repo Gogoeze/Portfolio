@@ -13,9 +13,9 @@ export default function AboutMe() {
             className="aspect-[4/5] rounded-[3rem] overflow-hidden bg-cyber-gray relative z-10 border border-white/5"
           >
             <img
-              src="https://picsum.photos/seed/portrait/800/1000"
+              src="/Portrait.jpeg"
               alt="Portrait"
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 opacity-80 hover:opacity-100"
+              className="w-full h-full object-cover hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"
             />
           </motion.div>
@@ -32,17 +32,16 @@ export default function AboutMe() {
           >
             <span className="text-xs uppercase tracking-widest text-neon-pink font-semibold mb-6 block neon-glow">The Narrative</span>
             <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight text-white">
-              A journey from <span className="italic">syntax</span> to <span className="text-neon-pink neon-glow">substance</span>.
-            </h2>
-            <div className="space-y-6 text-cyber-light/70 leading-relaxed font-light text-lg">
+              Driven by code, engineered for scalable <span className="text-neon-pink neon-glow font-medium">software solutions</span>.            </h2>
+            <div className="space-y-6 text-cyber-light/80 leading-relaxed font-light text-lg">
               <p>
-                I started in Computer Engineering, then sharpened that foundation at AltSchool Africa's Frontend Engineering program — learning to turn interfaces into something people actually enjoy using, not just something that works.
+                My background in Computer Engineering gave me a strong technical foundation, but it was during my Industrial Training (IT) that I discovered my passion for building software layers.
               </p>
               <p>
-                Since then I've built production dashboards where the stakes are real: seller onboarding flows, KYC verification wizards, wallets, storefront builders — the kind of screens where a broken edge case costs someone money, not just a bad review.
+                I leveraged that momentum through my NYSC year, expanding my stack and diving into live codebases. Over the past two years, I have been engineering production-ready applications as a full-time software developer.
               </p>
               <p>
-                I care as much about the API contract behind a button as the button itself. That's the substance part — code that holds up once real users and real data hit it.
+                Throughout this journey, I have focused on building complex user interfaces, managing application states, and integrating secure API workflows. I build clean, reliable code structures designed to handle data efficiently and scale seamlessly for users.
               </p>
             </div>
 

@@ -4,14 +4,15 @@ export const PROJECTS: Project[] = [
   {
     id: '1',
     type: 'developer',
-    title: 'FinTech Dashboard',
-    summary: 'A high-performance React dashboard for managing complex financial transactions with real-time data visualization.',
-    audience: 'Financial analysts and portfolio managers looking for a streamlined, data-rich interface.',
-    researchProcess: 'Conducted user interviews with 5 analysts to identify pain points in existing tools. Iterated through 3 wireframe versions focusing on data density without cognitive overload.',
-    tools: ['React', 'TypeScript', 'Tailwind CSS', 'D3.js', 'Node.js'],
-    images: ['https://picsum.photos/seed/dev1/800/600', 'https://picsum.photos/seed/dev1-2/800/600'],
+    title: 'Portfolio',
+    summary: 'A minimalist, high-performance portfolio engineered with responsive design, dynamic layout transitions, and optimized bundle sizes.',
+    audience: 'Engineering managers and technical recruiters looking for frontend talent with a focus on clean code and system logic.',
+    researchProcess: 'Iterated through layout concepts to maximize scannability. Focused on performance benchmarks to ensure instant rendering across both desktop and mobile viewports.',
+    tools: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+    images: ['/portfoliosc.png',],
     color: 'bg-cyber-gray'
   },
+
   {
   id: '2',
   type: 'designer',
@@ -26,12 +27,12 @@ export const PROJECTS: Project[] = [
   {
     id: '3',
     type: 'developer',
-    title: 'EcoTrack Mobile App',
-    summary: 'A React Native application that helps users track their carbon footprint through automated receipt scanning and lifestyle logging.',
-    audience: 'Environmentally conscious individuals looking for actionable data to reduce their daily impact.',
-    researchProcess: 'Analyzed existing carbon calculators to find gaps in user engagement. Implemented gamification elements based on behavioral psychology research.',
-    tools: ['React Native', 'Firebase', 'Python', 'OpenCV'],
-    images: ['https://picsum.photos/seed/dev2/800/600', 'https://picsum.photos/seed/dev2-2/800/600'],
+    title: 'SocialGrid',
+    summary: 'A multi-platform AI social media assistant that allows users to generate customized captions, discover trending hashtags, and schedule posts.',
+    audience: 'Content creators and brands looking for an intelligent, automated tool to manage their digital presence across multiple channels.',
+    researchProcess: 'Analyzed social media engagement metrics to optimize caption generation parameters. Structured user-controlled content rules to ensure generated posts align perfectly with brand safety standards.',
+    tools: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+    images: ['/socialgrid1.png', '/Socialgrid2.png'],
     color: 'bg-cyber-gray'
   },
   {
